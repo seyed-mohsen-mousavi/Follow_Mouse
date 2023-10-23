@@ -1,0 +1,18 @@
+body{
+    position: relative;
+    padding: 2.5rem;
+    background-color: rgb(243 244 246);
+    height: 100vh;
+}
+.box {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    transition:ease-out .2s;
+    border-radius: 50%;
+    background-color: #1da1f252;
+    top: 0;
+    left: 0;
+    margin: -18px;
+    z-index: 0;
+}
